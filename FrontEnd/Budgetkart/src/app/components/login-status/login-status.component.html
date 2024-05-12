@@ -1,0 +1,20 @@
+<div class="login-status-header">
+    <div *ngIf="isAuthenticated && userFullName" class="login-status-user-info">
+        Welcome back, {{ userFullName }}
+    </div>
+    <button *ngIf="!isAuthenticated" routerLink="/login" class="login-btn">
+        <i class="fa-regular fa-user"></i>
+    </button>
+    <button *ngIf="isAuthenticated" (click)="logout()" class="logout-btn">
+        <i class="fa-solid fa-right-from-bracket"></i>
+    </button>
+    &nbsp;&nbsp;&nbsp;
+    <!--Members-->
+    <button *ngIf="isAuthenticated" routerLink="/members" class="members-btn">
+        <i class="fa-solid fa-crown"></i>
+    </button>
+    &nbsp;&nbsp;
+    <button *ngIf="isAuthenticated" routerLink="/order-history" class="orders-btn">
+        <i class="fa-solid fa-file-invoice"></i>
+    </button>
+</div>

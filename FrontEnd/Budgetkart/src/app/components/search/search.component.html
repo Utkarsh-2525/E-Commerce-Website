@@ -1,0 +1,6 @@
+<div class="form-header">
+  <input #myInput type="text" placeholder="Search for Products" class="au-input au-input-xl" (keyup.enter)="doSearch(myInput.value)"/>
+  <button (click)="doSearch(myInput.value)" class="search-btn" style="vertical-align:middle"><span>Search&nbsp;&nbsp;</span>
+<!--      <i class="fa-solid fa-magnifying-glass"></i>-->
+  </button>
+</div>

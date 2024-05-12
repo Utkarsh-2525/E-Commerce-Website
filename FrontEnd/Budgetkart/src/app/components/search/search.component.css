@@ -1,0 +1,40 @@
+.search-btn {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #b4f2b4;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+.search-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.search-btn span:after {
+    content: '\1F50D';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.search-btn:hover span {
+    padding-right: 25px;
+}
+
+.search-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}

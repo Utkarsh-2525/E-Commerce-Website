@@ -1,0 +1,100 @@
+.security-btn{
+    position:relative;
+    right:10px;
+    min-width:95px;
+    color:#fff;
+    border:10px solid #205b8d;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:43px;
+    background:#205b8d
+}
+.logout-btn
+{
+    position: relative;
+    right: 10px;
+    width: 50px;
+    color: #e94a4a;
+    height: 45px;
+    font-size: 25px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 43px;
+    /*background: #950a0a;*/
+}
+.members-btn
+{
+    position: relative;
+    right: 10px;
+    width: 50px;
+    color: goldenrod;
+    height: 45px;
+    font-size: 24px;
+
+
+    /*border: 10px solid #205b8d;*/
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 25px;
+    /*background: #ede432;*/
+}
+.orders-btn
+{
+    position: relative;
+    right: 10px;
+    width: 50px;
+    color: #fcfafa;
+    height: 45px;
+    font-size: 24px;
+
+
+    /*border: 10px solid #205b8d;*/
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 25px;
+    /*background: #65e269;*/
+}
+.login-btn
+{
+    position: relative;
+    right: 10px;
+    width: 50px;
+    color: #fbf9f9;
+    height: 45px;
+    font-size: 24px;
+
+
+    /*border: 10px solid #205b8d;*/
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    /*border-radius: 25px;*/
+    /*background: #65e269;*/
+}
+.login-status-header{
+    /*display: -webkit-box;*/
+    /*display: -webkit-flex;*/
+    /*display: -moz-box;*/
+    /*display: -ms-flexbox;*/
+    display: flex;
+    /*width: -1px;*/
+    /*justify-content: space-around;*/
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.login-status-user-info{
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    line-height:43px;
+    border:1px;
+    padding:0 35px;
+    color: whitesmoke;
+    /*-webkit-border-radius:3px;*/
+    /*-moz-border-radius:3px;*/
+    border-radius:3px;
+    /*-webkit-transition:all .5s ease;*/
+    /*-o-transition:all .5s ease;*/
+    /*-moz-transition:all .5s ease;*/
+    transition:all .5s ease
+}
