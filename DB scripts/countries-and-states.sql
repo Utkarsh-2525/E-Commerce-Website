@@ -1,4 +1,4 @@
-USE `full-stack-ecommerce`;
+USE `BudgetKart`;
 
 SET foreign_key_checks = 0;
 

@@ -2,7 +2,7 @@
 -- Schema full-stack-ecommerce
 -- -----------------------------------------------------
 
-USE `full-stack-ecommerce`;
+USE `BudgetKart`;
 
 --
 -- Prep work
