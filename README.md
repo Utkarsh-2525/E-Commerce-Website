@@ -9,7 +9,6 @@ Welcome to Budget Kart - An Online E-Commerce Web Application. This project is a
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Features
