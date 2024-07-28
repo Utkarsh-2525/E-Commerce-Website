@@ -59,17 +59,17 @@ Welcome to Budget Kart - An Online E-Commerce Web Application. This project is a
 
 1. Clone the repository:
    ```bash
-   https://github.com/Utkarsh-2525/Readers-Paradise-The-Library-App-.git
+   https://github.com/Utkarsh-2525/E-Commerce-Website.git
 
-2. Move to `readersparadise` folder in `BackEnd/ReadersParadise/src/main/java/com/utkarsh2573/`
+2. Move to `BudgetKart` folder in `E-Commerce-Website/BackEnd/BudgetKart`
    ```bash
-   cd BackEnd/ReadersParadise/src/main/java/com/utkarsh2573/
+   cd BackEnd/BudgetKart/
 
-3. Run `ReadersParadiseApplication.java` using Java supported IDE.
+3. Run `BudgetKartApplication.java` using Java supported IDE.
 
-4. Move to `src` folder in `FrontEnd/readers-paradise/`
+4. Move to `BudgetKart` folder in `E-Commerce-Website/FrontEnd/Budgetkart/`
    ```bash
-   cd FrontEnd/readers-paradise/src
+   cd FrontEnd/Budgetkart/
 
 5. Open the command line or terminal and execute the command:
    ```bash
